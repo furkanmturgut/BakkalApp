@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".panel.SatinAlmaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ürün Ekle"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/cardIcecek"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İçecekler"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"></TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/cardIcecek"
+        android:id="@+id/cardYiyecek"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Çikolata/Bisküvi"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"></TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/cardIcecek"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/cardSigara"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sigaralar"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"></TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/cardSigara"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/cardYiyecek"
+        android:id="@+id/cardBakliyat"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bakliyatlar"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"></TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Düzenle"
+        android:layout_below="@id/cardYiyecek"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonDuzenle"></Button>
+
+
+</RelativeLayout>

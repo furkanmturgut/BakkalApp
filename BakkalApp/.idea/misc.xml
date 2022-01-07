@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/buttonbackground.xml" value="0.21036036036036035" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.1963963963963964" />
+        <entry key="app/src/main/res/layout/activity_duzenle.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1963963963963964" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1963963963963964" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_panel.xml" value="0.1963963963963964" />
+        <entry key="app/src/main/res/layout/activity_panel_home.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/activity_satin_alma.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_tedarik.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_tedarik_duzenle.xml" value="0.18614130434782608" />
+        <entry key="app/src/main/res/layout/activity_tedarikci_ekle.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/activity_urun_duzenle.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_urun_duzenle_detay.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_urun_ekle.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1963963963963964" />
+        <entry key="app/src/main/res/layout/fragment_payment.xml" value="0.1963963963963964" />
+        <entry key="app/src/main/res/layout/layout_recycler.xml" value="0.1963963963963964" />
+        <entry key="app/src/main/res/layout/layout_tedarik.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/payment_recycler.xml" value="0.1963963963963964" />
+        <entry key="app/src/main/res/layout/urun_layout.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.1963963963963964" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

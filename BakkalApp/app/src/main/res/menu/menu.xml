@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeMenu"
+        android:title="Anasayfa"
+        android:icon="@drawable/ic_baseline_home_"></item>
+
+    <item android:id="@+id/paymentMenu"
+        android:title="Ödeme Al"
+        android:icon="@drawable/ic_baseline_payment_"></item>
+
+    <item android:id="@+id/logoutMenu"
+        android:title="Çıkış Yap"
+        android:icon="@drawable/ic_baseline_login_"></item>
+
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#93C1CF">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:id="@+id/textTedarikciAdi"
+            android:textSize="15sp"
+            android:text="Firma : Turgut Kardeşler Ticaret"></TextView>
+
+        <TextView
+            android:layout_below="@id/textTedarikciAdi"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:id="@+id/textTedarikciNo"
+            android:textSize="15sp"
+            android:text="Telefon : 555 555 5555"></TextView>
+
+
+        <TextView
+            android:layout_below="@id/textTedarikciNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTedarikciAdres"
+            android:textSize="15sp"
+            android:text="Adres : Aksaray OSB 4. Sokak Aksaray/Merkez "></TextView>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

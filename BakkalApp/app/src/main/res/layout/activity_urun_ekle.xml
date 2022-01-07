@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".panel.UrunEkleActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ürün Ekle"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:id="@+id/text5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"></TextView>
+
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextUrunAdi"
+        android:hint="Ürün adını giriniz..."
+        android:layout_below="@id/text5"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"></EditText>
+
+    <EditText
+        android:inputType="text"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextUrunTedarikci"
+        android:layout_below="@id/editTextUrunAdi"
+        android:hint="Tedarikci giriniz..."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/editTextUrunMiktar"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextUrunTedarikci"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Alınan miktarı giriniz..."
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextUrunAlisFiyat"
+        android:layout_below="@id/editTextUrunMiktar"
+        android:hint="Alış fiyatı giriniz..."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"></EditText>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextUrunSatisFiyat"
+        android:layout_below="@id/editTextUrunAlisFiyat"
+        android:hint="Satış fiyatı giriniz..."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"></EditText>
+
+    <Button
+        android:id="@+id/buttonUrunEkle"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextUrunSatisFiyat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Ekle"></Button>
+</RelativeLayout>

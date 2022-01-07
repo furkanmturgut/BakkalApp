@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".panel.UrunDuzenleDetayActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDuzenAd"
+        android:text="Ürün Adı"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"></TextView>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:id="@+id/editDuzenStok"
+        android:layout_below="@id/textDuzenAd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Stok sayısı"
+        android:gravity="center"></EditText>
+
+    <EditText
+        android:id="@+id/editDuzenFiyat"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editDuzenStok"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Fiyat"
+        android:inputType="numberDecimal"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:text="TL"
+        android:layout_alignRight="@id/editDuzenFiyat"
+        android:layout_below="@id/editDuzenStok"
+        android:layout_marginTop="30dp"></TextView>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_below="@id/editDuzenFiyat"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Kaydet"
+        android:id="@+id/buttonDuzenKaydet"></Button>
+
+
+</RelativeLayout>

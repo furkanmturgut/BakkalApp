@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".panel.TedarikDuzenleActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text4"
+        android:text="Tedarikci Düzenle"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"></TextView>
+
+    <ImageView
+        android:layout_below="@id/text4"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageEkle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/erdalbakkal"></ImageView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageEkle"
+        android:id="@+id/editTextFirmaDuzen"
+        android:hint="Firma adını düzenle"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"></EditText>
+
+    <EditText
+        android:id="@+id/editTextNoDuzen"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextFirmaDuzen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Firma numarası düzenle"
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:id="@+id/editTextAdresDuzen"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextNoDuzen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Firma adresi düzenle"
+        android:inputType="text"></EditText>
+
+    <Button
+        android:id="@+id/buttonTedarikciDuzen"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextAdresDuzen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Kaydet"></Button>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/buttonTedarikciDuzen"
+        android:background="@drawable/buttonbackground"
+        android:text="Sil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttonTedarikciSil"></Button>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textHomeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Erdal Bakkal"
+            android:textColor="@color/black"
+            android:textSize="30sp"></TextView>
+
+
+        <TextView
+            android:id="@+id/textSoftDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textHomeName"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:text="İçecekler"
+            android:textColor="@color/black"
+            android:textSize="24sp"></TextView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerSoftDrink"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/textSoftDrink"></androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/textSmoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recyclerSoftDrink"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:text="Sigaralar"
+            android:textColor="@color/black"
+            android:textSize="24sp"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerSmoke"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/textSmoke"></androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/textBakliyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recyclerSmoke"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:text="Bakliyat"
+            android:textColor="@color/black"
+            android:textSize="24sp"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerBakliyat"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/textBakliyat"></androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/textYiyecek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recyclerBakliyat"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:text="Yiyecek "
+            android:textColor="@color/black"
+            android:textSize="24sp"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerYiyecek"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/textYiyecek"></androidx.recyclerview.widget.RecyclerView>
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textName"></TextView>
+
+    <ImageView
+        android:layout_below="@id/textName"
+        android:id="@+id/imageErdal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/erdalbakkal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"></ImageView>
+
+
+   <EditText
+       android:inputType="textEmailAddress"
+       android:layout_width="230dp"
+       android:layout_height="40dp"
+       android:id="@+id/editTextMail"
+       android:layout_below="@id/imageErdal"
+       android:layout_marginTop="40dp"
+       android:layout_centerHorizontal="true"
+       android:hint="Mail giriniz"
+       android:textColor="@color/black"></EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextPass"
+        android:layout_below="@id/editTextMail"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Şifre giriniz"
+        android:textColor="@color/black"></EditText>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonHome"
+        android:layout_below="@id/editTextPass"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonbackground"
+        android:text="Giriş Yap"></Button>
+
+</RelativeLayout>
